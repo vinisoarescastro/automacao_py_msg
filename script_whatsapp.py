@@ -146,6 +146,7 @@ def enviar_duas_mensagens(driver, numero, nome, primeira_mensagem, segunda_mensa
                 campo_texto.send_keys(caractere)
             
             # Envia a mensagem pressionando Enter
+        
             campo_texto.send_keys(Keys.ENTER)
             
             print(f"✅ Segunda mensagem enviada para {nome} ({numero})")
